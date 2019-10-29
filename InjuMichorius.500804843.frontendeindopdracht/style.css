@@ -1,0 +1,389 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #0026CC;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    background-color: #0026CC;
+    width: 100%;
+    height: 60px;
+    padding: 1em;
+}
+
+body header nav > div {
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+body header nav > div div {
+    width: 25px;
+    background-color: white;
+    height: 3px;
+    margin: 5px;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+body header nav ul {
+    position: fixed;
+    top: 3em;
+    font-family: cubano;
+    width: 18em;
+    padding: 25px;
+    background-color: #0026CC;
+    color: white;
+    font-size: 20px;
+    transform: translateX(-18em);
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+
+.active {
+    transform: translateX(-1em);
+    opacity: 1;
+}
+
+main div img {
+    width: 100vw;
+    height: 30vh;
+}
+
+ul li a {
+    font-family: cubano;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+ul li {
+    padding: 1em;
+    text-align: left;
+}
+
+main a {
+    color: #0026CC;
+    text-decoration: none;
+    font-family: cubano;
+    background-color: white;
+    padding: 1em;
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: 1em auto;
+    border: solid #0026CC;
+    transition-duration: 0.4s;
+}
+
+main a:hover {
+    color: white;
+    background-color: #0026CC;
+    border: solid white;
+}
+
+h1 {
+    color: white;
+    font-family: cubano;
+    text-align: center;
+    margin:
+        /*7.5em*/
+        0 1em 0;
+}
+
+button {
+    font-family: cubano;
+    color: #0026CC;
+    background: white;
+    font-size: 2em;
+    padding: 0.5em;
+    box-shadow: 1px 1px 1px 1px #000;
+    border: none;
+    margin: 0 0 1em;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #0026CC;
+    color: white;
+    cursor: pointer;
+}
+
+body main section article h2 {
+    font-family: cubano;
+}
+
+body main section article img:nth-child(1) {
+    width: 1em;
+}
+
+body main section article img:nth-child(2) {
+    width: 1em;
+}
+
+body main section article img {
+    width: 100%;
+}
+
+article {
+    padding: 1em;
+    background-color: #4CD066;
+    box-shadow: inset 0 0 20px black;
+    cursor: pointer;
+}
+
+section {
+    display: grid;
+    grid-gap: 2em;
+    width: 80%;
+    margin: auto;
+}
+
+h3 {
+    color: white;
+    font-family: cubano;
+}
+
+footer div > div {
+    width: 80%;
+    margin: 4em auto;
+}
+
+footer div > div img {
+    margin: 1em 1em 0 0;
+    width: 3em;
+    cursor: pointer;
+}
+
+label {
+    font-size: 1.3em;
+    width: 100%;
+    font-family: cubano;
+    color: white;
+}
+
+footer form fieldset {
+    width: 80%;
+    margin: 0 auto 0;
+}
+
+input {
+    width: 100%;
+    height: 4em;
+    border: none;
+    padding: 1em;
+    transition-duration: 0.4s;
+}
+
+footer div form fieldset input:nth-child(3) {
+    background-color: lightgrey;
+    color: grey;
+    font-family: cubano;
+    font-size: 1em;
+    padding: 0;
+    height: 2em;
+    transition-duration: 0.4s;
+}
+
+fieldset:valid input:nth-child(3) {
+    background-color: #4CD066;
+    color: black;
+}
+
+fieldset:invalid input:nth-child(3):hover {
+    cursor: not-allowed;
+}
+
+fieldset:valid input:nth-child(3):hover {
+    background-color: #0026CC;
+    color: white;
+    cursor: pointer;
+    border: solid white;
+}
+
+input::placeholder {
+    font-family: cubano;
+}
+
+fieldset {
+    border: none;
+}
+
+#footerline {
+    background-color: white;
+    width: 100%;
+    height: 0.1em;
+    margin-top: 1.5em;
+}
+
+ul li a:hover {
+    color: #4CD066;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0.4em;
+    width: 100%;
+}
+
+footer ul {
+    width: 80%;
+    margin: 1.5em auto;
+}
+
+footer div:nth-child(4) img {
+    height: 5em;
+    width: 5em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+body footer div:nth-child(4) {
+    padding: 1em;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+/*--------------ANIMATIES BIJ TICKET.HTML--------------------*/
+
+/*achtergrond article default*/
+.article1 {
+    margin-top: 1em;
+    transition-duration: 0.2s;
+}
+
+/*achtergrond article 1 active*/
+.uitschuif1 {
+    height: 24em;
+}
+
+/*achtergrond article 2 active*/
+.uitschuif2 {
+    height: 30.8em;
+}
+
+article:hover {
+    background-color: #0026CC;
+    color: white;
+}
+
+.tickets article {
+    text-align: center;
+}
+
+.tickets article h2 {
+    font-size: 4.5em;
+}
+
+.tickets article h3 {
+    font-size: 0.8em;
+}
+
+/*Tekst 1 default*/
+p {
+    color: white;
+    font-family: arial;
+    margin: 10px;
+    opacity: 0;
+    transition: opacity 0.4s;
+    display: none;
+}
+
+/*Tekst 1 active*/
+.tekst {
+    opacity: 1;
+    display: block;
+}
+
+/*Pijl 1 default*/
+.tickets article > img {
+    width: 2em;
+    height: 2em;
+    transition-duration: 0.4s;
+}
+
+/*pijl 1 img active*/
+.pijl {
+    transform: rotate(180deg);
+}
+
+.article2 {
+    margin-top: 1em;
+    transition-duration: 0.2s;
+}
+
+/*--------------------SCHERM VOOR TABLET--------------------*/
+@media screen and (min-width: 700px) {
+
+    footer form fieldset {
+        width: 100%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    section,
+    footer > div:first-child {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: auto;
+    }
+
+    body header nav ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        transform: translateX(-0.8em);
+        opacity: 1;
+        position: absolute;
+        top: 0;
+    }
+
+    body header nav ul li {
+        width: 10em;
+        text-align: center;
+    }
+
+    form,
+    footer div > div {
+        width: 100%;
+        margin: 0;
+        margin-top: 2em;
+    }
+
+    footer ul {
+        display: flex;
+    }
+}
+
+
+/*-------------------SCHERM VOOR COMPUTER-------------------*/
+@media screen and (min-width: 1024px) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main div img {
+        width: 100vw;
+        height: 50vh;
+    }
+
+}
