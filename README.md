@@ -10,7 +10,7 @@ To run this project you'll need `nodejs`, `git`, `a code editor` and `MongoDB`
 
 ### Installing
 First you'll need to clone the repository. You can choose a destination by running cd
-```cmd
+```
 cd [ENTER YOUR PATH HERE]
 git clone https://github.com/tsjuusmei/datingAppFeature.git
 ```
