@@ -6,7 +6,7 @@ Luvely is a dating app where users can create an account, filter through matches
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### technical requirements
-To run this project you'll need `node js`, `code editor`
+To run this project you'll need `nodejs`, `git`, `a code editor` and `MongoDB`
 
 ### Clone this repository 
 To clone this repository add this in your terminal:
