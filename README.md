@@ -29,7 +29,7 @@ To setup the database you'll need to create a new cluster. After you've created 
 
 ![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/connectCluster.jpg)
 
-Clicking on connect will give you 3 options. Choose for option 2: _Connect your application_. Copy the string and paste it in your code. It will probably look something like this: *mongodb+srv://<username>:<password>@moa-lfz7p.mongodb.net/test?retryWrites=true&w=majority*
+Clicking on connect will give you 3 options. Choose for option 2: _Connect your application_. Copy the string and paste it in your code. It will probably look something like this: **mongodb+srv://<username>:<password>@moa-lfz7p.mongodb.net/test?retryWrites=true&w=majority**
 
 ### Test if it works
 To test if the application works add this to your terminal:
