@@ -42,12 +42,13 @@ This is the structure of the database:
 ![Database](https://github.com/annaboomsma/datingAppFeature/blob/master/documentatie/images/Database.png)
 
 ## Packages used
-* test
-* test
-* 
-* 
-* 
-* 
-* 
-
+* [Express](https://www.npmjs.com/package/express) - Used to setup the server
+* [MongoDB](https://www.npmjs.com/package/mongodb) - Used to setup the database
+* [Body-parser](https://www.npmjs.com/package/body-parser) - Used to refer to html elements
+* [Express-session](https://www.npmjs.com/package/express-session) - Used to identify the current user
+* [Bcrypt](https://www.npmjs.com/package/bcrypt) - Used to hash passwords
+* [Multer](https://www.npmjs.com/package/multer) - Used to upload images
+* [Dotenv](https://www.npmjs.com/package/dotenv) - Used to protect sensitive information
+* [Ejs](https://www.npmjs.com/package/ejs) - Used for templating
+* [Nodemon](https://www.npmjs.com/package/nodemon) - Used for auto refreshing the server
 
