@@ -52,3 +52,5 @@ This is the structure of the database:
 * [Ejs](https://www.npmjs.com/package/ejs) - Used for templating
 * [Nodemon](https://www.npmjs.com/package/nodemon) - Used for auto refreshing the server
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/tsjuusmei/datingAppFeature/blob/master/LICENSE) file for details
