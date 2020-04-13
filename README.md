@@ -18,7 +18,7 @@ You'll need to install the modules. You can do this by running the following lin
 ```cmd
 npm install
 ```
-After you've set-up the database you can turn the server on by running either
+After you've [set-up the database](https://github.com/partychickenking/partychickenking.github.io/blob/master/README.md#setting-up-the-database) you can turn the server on by running either
 ```cmd
 node server.js
 npm run dev
