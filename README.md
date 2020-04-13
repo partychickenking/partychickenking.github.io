@@ -27,7 +27,7 @@ npm run dev
 ### Setting up the database
 To setup the database 
 
-![newCluster](https://github.com/partychickenking/partychickenking.github.io/master/image/newCluster.jpg)
+![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/newCluster.jpg)
 
 ### Test if it works
 To test if the application works add this to your terminal:
