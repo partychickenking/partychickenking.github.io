@@ -8,10 +8,16 @@ These instructions will get you a copy of the project up and running on your loc
 ### technical requirements
 To run this project you'll need `nodejs`, `git`, `a code editor` and `MongoDB`
 
-### Clone this repository 
-To clone this repository add this in your terminal:
+### Installing
+First you'll need to clone the repository
+```cmd
+git clone https://github.com/tsjuusmei/datingAppFeature.git
+```
+Now you'll need to install the modules. You can do this by running the following line
+```cmd
+npm install
+```
 
-`git clone https://github.com/annaboomsma/datingAppFeature.git`
 
 Your computer will now clone this repository. To make sure you're in the right folder add this to your terminal:
 
