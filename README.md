@@ -9,26 +9,20 @@ These instructions will get you a copy of the project up and running on your loc
 To run this project you'll need `nodejs`, `git`, `a code editor` and `MongoDB`
 
 ### Installing
-First you'll need to clone the repository. You can choose a destination by typing `cd [path]`
+First you'll need to clone the repository. You can choose a destination by running cd
 ```cmd
+cd [path, for example C:\Users\john\Desktop\luvely]
 git clone https://github.com/tsjuusmei/datingAppFeature.git
 ```
-Now you'll need to install the modules. You can do this by running the following line
+You'll need to install the modules. You can do this by running the following line
 ```cmd
 npm install
 ```
-
-
-Your computer will now clone this repository. To make sure you're in the right folder add this to your terminal:
-
-`cd datingAppFeature`
-
-### Install packages 
-To make sure the application will function completely you have to install all packages so add this to your terminal:
-
-`npm install`
-
-Now your computer will have installed all packages needed for this application. 
+After you've set-up the database you can turn the server on by running either
+```cmd
+node server.js
+npm run dev
+```
 
 ### Test if it works
 To test if the application works add this to your terminal:
