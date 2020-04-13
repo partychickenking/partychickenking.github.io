@@ -29,14 +29,14 @@ To setup the database you'll need to create a new cluster. After you've created 
 
 ![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/connectCluster.jpg)
 
-Clicking on connect will give you 3 options. Choose for option 2: _Connect your application_. Copy the string and paste it in your code. It will probably look something like this: **mongodb+srv://<username>:<password>@moa-lfz7p.mongodb.net/test?retryWrites=true&w=majority**
+Clicking on connect will give you 3 options. Choose for option 2: _Connect your application_. Copy the string and paste it in your code. It will probably look something like this: **mongodb+srv://[username]:[password]@moa-lfz7p.mongodb.net/test?retryWrites=true&w=majority**
 
 ### Test if it works
-To test if the application works add this to your terminal:
-
-`npm run nodemon`
-
-If the server is running go to [info](http://localhost:3000/)
+To test if the application works you can run the following command. If the applicaton works it will say `Example app listening on port3000`
+```cmd
+npm run dev
+```
+To test if you've correctly connected to the database you can go to the [register](http://localhost:3000/register) page by typing http://localhost:3000/register in your browser. Once on this page, you can fill in the form and send it. If it shows in the database, you've correctly connected. You can use [Compass](https://www.mongodb.com/download-center/compass) for easy visual acces to your database.
 
 ## Database 
 This is the structure of the mongodb atlas database:
