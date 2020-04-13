@@ -5,7 +5,7 @@ Luvely is a dating app where users can create an account, filter through matches
 ## Getting started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### technical requirements
+### Technical requirements
 To run this project you'll need [Nodejs](https://nodejs.org/en/download/), [Git](https://git-scm.com/downloads), [Any code editor](https://code.visualstudio.com/download) and [MongoDB](https://www.mongodb.com/cloud/atlas/register)
 
 ### Installing
@@ -40,3 +40,14 @@ To test if you've correctly connected to the database you can go to the [registe
 
 This is the structure of the database:
 ![Database](https://github.com/annaboomsma/datingAppFeature/blob/master/documentatie/images/Database.png)
+
+## Packages used
+* test
+* test
+* 
+* 
+* 
+* 
+* 
+
+
