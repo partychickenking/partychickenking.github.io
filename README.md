@@ -38,7 +38,5 @@ npm run dev
 ```
 To test if you've correctly connected to the database you can go to the [register](http://localhost:3000/register) page by typing http://localhost:3000/register in your browser. Once on this page, you can fill in the form and send it. If it shows in the database, you've correctly connected. You can use [Compass](https://www.mongodb.com/download-center/compass) for easy visual acces to your database.
 
-## Database 
-This is the structure of the mongodb atlas database:
-
+This is the structure of the database:
 ![Database](https://github.com/annaboomsma/datingAppFeature/blob/master/documentatie/images/Database.png)
