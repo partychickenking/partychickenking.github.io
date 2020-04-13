@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 To run this project you'll need `nodejs`, `git`, `a code editor` and `MongoDB`
 
 ### Installing
-First you'll need to clone the repository
+First you'll need to clone the repository. You can choose a destination by typing `cd [path]`
 ```cmd
 git clone https://github.com/tsjuusmei/datingAppFeature.git
 ```
