@@ -25,10 +25,12 @@ npm run dev
 ```
 
 ### Setting up the database
-To setup the database you'll need to create a new cluster. 
-![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/newCluster.jpg)
-After you've created a cluser, you can connect with it by clicking connect
+To setup the database you'll need to create a new cluster. After you've created a cluser, you can connect with it by clicking connect. Note that you'll have to whitelist your ip. You can do this by going to the `network acces` tab and choose `Add IP adress`.
+
 ![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/connectCluster.jpg)
+
+Clicking on connect will give you 3 options. Choose for option 2: _Connect your application_. Copy the string and paste it in your code. It will probably look something like this mongodb+srv://<username>:<password>@moa-lfz7p.mongodb.net/test?retryWrites=true&w=majority
+
 ### Test if it works
 To test if the application works add this to your terminal:
 
