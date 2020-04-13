@@ -28,7 +28,7 @@ npm run dev
 To setup the database you'll need to create a new cluster. 
 ![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/newCluster.jpg)
 After you've created a cluser, you can connect with it by clicking connect
-![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/newCluster.jpg)
+![newCluster](https://github.com/partychickenking/partychickenking.github.io/blob/master/image/connectCluster.jpg)
 ### Test if it works
 To test if the application works add this to your terminal:
 
