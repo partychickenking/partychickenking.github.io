@@ -24,6 +24,8 @@ node server.js
 npm run dev
 ```
 
+### Setting up the database
+To setup the database 
 ### Test if it works
 To test if the application works add this to your terminal:
 
